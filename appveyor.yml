@@ -1,6 +1,6 @@
 version: svn-{branch}.{build}
 
-image: Visual Studio 2017
+image: Visual Studio 2019
 
 clone_folder: C:\svn
 shallow_clone: true
@@ -16,7 +16,7 @@ cache:
 environment:
   matrix:
     - platform:        "x64"
-      vcversion:       "vc15"
+      vcversion:       "vc16"
       svn_version:     "1.14.2"
       zlib_version:    "1.2.12"
       expat_release:   "R_2_4_8"
@@ -29,7 +29,7 @@ environment:
       run_build:       "yes"
       run_tests:       "no"
     - platform:        "x64"
-      vcversion:       "vc15"
+      vcversion:       "vc16"
       svn_version:     "1.14.2"
       zlib_version:    "1.2.12"
       expat_release:   "R_2_4_8"
@@ -42,7 +42,7 @@ environment:
       run_build:       "yes"
       run_tests:       "yes"
     - platform:        "x86"
-      vcversion:       "vc15"
+      vcversion:       "vc16"
       svn_version:     "1.14.2"
       zlib_version:    "1.2.12"
       expat_release:   "R_2_4_8"
