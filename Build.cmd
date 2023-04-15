@@ -27,7 +27,6 @@ cd \downloads\cyrus-sasl-cyrus-sasl-2.1.28\lib
 if "%run_clean%"=="yes" nmake /f NTMakefile CLEAN
 if "%platform%"=="x64"  nmake /f NTMakefile
 if "%platform%"=="x86"  nmake /f NTMakefile
-if exist libsasl.lib copy libsasl.lib ..\ /y
 
 cd \downloads\subversion-%svn_version%
 
