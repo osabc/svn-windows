@@ -17,7 +17,7 @@ environment:
   matrix:
     - platform:        "x64"
       vcversion:       "vs16"
-      svn_version:     "1.14.2"
+      svn_version:     "1.14.5"
       zlib_version:    "1.2.12"
       expat_release:   "R_2_4_8"
       expat_version:   "2.4.8"
