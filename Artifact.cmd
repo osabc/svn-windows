@@ -8,7 +8,7 @@ for /r %%f in (*.so) do @copy "%%f" \svn\modules /y
 cd \svn
 if "%platform%"=="x64" copy C:\OpenSSL-v111-Win64\lib*x64.dll \svn\bin\ /y
 if "%platform%"=="x86" del \svn\bin\lib*x64.dll
-copy \downloads\serf-1.3.9\Release\*.dll \svn\bin\ /y
+copy \downloads\serf-1.3.10\Release\*.dll \svn\bin\ /y
 copy \downloads\cyrus-sasl-cyrus-sasl-2.1.28\lib\*.dll \svn\bin\ /y
 copy \Apache24\bin\libapr*.dll \svn\bin\ /y
 copy \Apache24\lib\libapr*.lib \svn\lib\ /y
