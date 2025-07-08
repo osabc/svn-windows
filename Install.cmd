@@ -29,8 +29,8 @@ if not exist subversion-%svn_version%\gen-make.py appveyor DownloadFile https://
 if not exist subversion-%svn_version%\gen-make.py 7z x -y subversion-%svn_version%.tar.gz
 if not exist subversion-%svn_version%\gen-make.py 7z x -y subversion-%svn_version%.tar
 
-if not exist serf-1.3.9.zip appveyor DownloadFile https://www.apache.org/dist/serf/serf-1.3.9.zip
-if     exist serf-1.3.9.zip 7z x -y serf-1.3.9.zip
+if not exist serf-1.3.10.zip appveyor DownloadFile https://www.apache.org/dist/serf/serf-1.3.10.zip
+if     exist serf-1.3.10.zip 7z x -y serf-1.3.10.zip
 
 if not exist cyrus-sasl-2.1.28.zip appveyor DownloadFile https://github.com/cyrusimap/cyrus-sasl/archive/refs/tags/cyrus-sasl-2.1.28.zip
 if     exist cyrus-sasl-2.1.28.zip 7z x -y cyrus-sasl-2.1.28.zip
